@@ -1,0 +1,38 @@
+
+
+doctype html
+html
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        title product
+        link(rel='stylesheet' type ="text/css" href='/css/addProductStyle.css')
+        script(src='/js/addProduct.js')
+       
+
+    
+        //- include _header
+        .content1 
+            .content2
+                h2 -Fill details to add new product-
+                form.form--login
+                    .content3
+                        input#productId(type="String" placeholder="Product ID" name="productID" required)
+                        input#name(type="String" placeholder="Name" name="name" required )
+                        input#price(type="Number" placeholder="Price" name="price" required)
+                        input#featured(type="String" placeholder="Featured or not" name="featured" )
+                        input#rating(type="Decimal" placeholder="Rating" name="rating")
+                        input#createdAt(type="Date" placeholder="created At" name= "createdAt")
+                        input#company(type="String" placeholder="Company" name="company" required)
+                        button.form-submit Submit
+        script(src='/js/bundle.js')
+                    
+
+
+      
+
+
+   
+    
+ 
