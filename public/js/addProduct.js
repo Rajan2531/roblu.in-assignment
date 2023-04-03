@@ -21,7 +21,7 @@ export const addproduct=async (productID,name,price,featured,rating,createdAt,co
         {
             alert("successfully added");
             setTimeout(() => {
-                location.assign('/home') //after successful addition of details, we get redirected to home page
+                location.assign('/') //after successful addition of details, we get redirected to home page
             }, 1000);
         }
     }
