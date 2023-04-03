@@ -11220,7 +11220,7 @@ var addproduct = /*#__PURE__*/function () {
             method: 'POST',
             url: "/api/v1/products",
             data: {
-              productId: productId,
+              productID: productID,
               name: name,
               price: price,
               featured: featured,
@@ -11234,7 +11234,7 @@ var addproduct = /*#__PURE__*/function () {
           if (res) {
             alert("successfully added");
             setTimeout(function () {
-              location.assign('/');
+              location.assign('/home'); //after successful addition of details, we get redirected to home page
             }, 1000);
           }
           _context.next = 10;
@@ -12191,7 +12191,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52754" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49785" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

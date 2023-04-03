@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "start":"node server.js"
+    "start":"node server.js",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
   },
   "author": "rajan chouhan",
@@ -22,5 +22,8 @@
     "parcel-bundler": "^1.12.5",
     "pug": "^3.0.2",
     "railway": "^2.0.17"
+  },
+  "engines":{
+    "node":">=10.0.0"
   }
 }

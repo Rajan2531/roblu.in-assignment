@@ -1,4 +1,6 @@
 const mongoose=require("mongoose")
+
+// creating schema of our product to create model from it
 const productSchema=new mongoose.Schema({
     productID:{
         type:String,
@@ -32,7 +34,9 @@ const productSchema=new mongoose.Schema({
 
 })
 
+
+// creating model from schema created previously.
 const Product=mongoose.model("Product",productSchema);
 
-
+// exporting the model so that it can be used from anywhere
 module.exports=Product
