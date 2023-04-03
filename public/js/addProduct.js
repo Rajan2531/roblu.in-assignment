@@ -1,7 +1,7 @@
 
 import axios from 'axios'
 
-export const addproduct=async (productId,name,price,featured,rating,createdAt,company)=>
+export const addproduct=async (productID,name,price,featured,rating,createdAt,company)=>
  {
     try{
         const res=await axios({
