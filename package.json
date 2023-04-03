@@ -4,7 +4,8 @@
   "description": "assignment for roblu.in ",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "start":"node server.js"
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
   },
   "author": "rajan chouhan",
